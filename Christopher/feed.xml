@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-10-04T19:01:08-04:00</updated><id>/feed.xml</id><title type="html">BruinBots</title><subtitle>BruinBots team website</subtitle><entry><title type="html">BruinBots Status Update</title><link href="/jekyll/update/2022/09/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="BruinBots Status Update" /><published>2022-09-27T18:42:29-04:00</published><updated>2022-09-27T18:42:29-04:00</updated><id>/jekyll/update/2022/09/27/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2022/09/27/welcome-to-jekyll.html"><![CDATA[<p>This is a status report of the three teams today.</p>
+
+<p><strong>Programming team:</strong></p>
+<ul>
+  <li>Basic skeleton code for the robot, yet to be tested is ready</li>
+</ul>
+
+<p><strong>Building team:</strong></p>
+<ul>
+  <li>Claw prototype is done, just need a mount to the robot and testing</li>
+</ul>
+
+<p><strong>CAD team:</strong></p>
+<ul>
+  <li>The part didn’t fit correctly, so they are working on a new one</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[This is a status report of the three teams today.]]></summary></entry></feed>
