@@ -2349,6 +2349,8 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .bruinbots-title { font-family: 'Fredoka One'; font-size: 50px; }
 
+.bruinbots-subtitle { font-family: 'Fredoka One'; font-size: 40px; }
+
 .bruinbots-number { font-family: 'Comic Sans MS'; font-size: 30px; }
 
 .bruinbots-paragraph { font-family: 'Fredoka One'; }
