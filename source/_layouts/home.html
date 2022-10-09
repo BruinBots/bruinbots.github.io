@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>BruinBots - </title>
+    <title>BruinBots - {{ page.title }}</title>
 
 
 
@@ -79,8 +79,8 @@
             <div>
                 <h3 class="float-md-start mb-0">BruinBots</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link fw-bold py-1 px-0 " href="/">Home</a>
-                    <a class="nav-link fw-bold py-1 px-0 "
+                    <a class="nav-link fw-bold py-1 px-0 {% if page.home == true %}active{% endif %}" href="/">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0 {% if page.who_we_are == true %}active{% endif %}"
                         href="/pages/who-we-are/">Who We Are</a>
                     <a class="nav-link fw-bold py-1 px-0" href="/pages/get-started/"> TODO Get Started</a>
                 </nav>
@@ -98,15 +98,15 @@
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav ms-auto mb-0  mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page"
+                            <a class="nav-link {% if page.home == true %}active{% endif %}" aria-current="page"
                                 href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link "
+                            <a class="nav-link {% if page.who_we_are == true %}active{% endif %}"
                                 href="/pages/who-we-are">Who We Are</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/pages/get-started-with-ftc">Get Started with FTC</a>
+                            <a class="nav-link {% if page.get_started_with_ftc == true %}active{% endif %}" href="/pages/get-started-with-ftc">Get Started with FTC</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
@@ -126,12 +126,7 @@
         </nav>
 
         <div class="p-3">
-            <div class="text-center">
-
-  <h1 class="bruinbots-title" id="get-started-with-ftc">Get Started with FTC</h1>
-
-</div>
-
+            {{ content }}
         </div>
 
         <!-- <main class="px-3">
