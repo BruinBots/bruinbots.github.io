@@ -3,6 +3,6 @@
 import os
 import shutil
 
-if os.path.exists('../BruinBots christopher-jekyll _site/Christopher'):
-    shutil.rmtree('../BruinBots christopher-jekyll _site/Christopher')
-shutil.copytree('_site', '../BruinBots christopher-jekyll _site/Christopher')
+if os.path.exists('../BruinBots christopher-jekyll _site/docs'):
+    shutil.rmtree('../BruinBots christopher-jekyll _site/docs')
+shutil.copytree('_site', '../BruinBots christopher-jekyll _site/docs')
