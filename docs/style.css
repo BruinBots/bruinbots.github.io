@@ -2336,7 +2336,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 .btn-secondary, .btn-secondary:hover, .btn-secondary:focus { color: #333; text-shadow: none; /* Prevent inheritance from `body` */ }
 
 /* Base structure */
-.cover-container { max-width: 42em; }
+.main-content { max-width: 900px; margin-left: auto; margin-right: auto; }
 
 /* Header */
 .nav-masthead .nav-link { color: rgba(0, 0, 0, 0.5); border-bottom: .25rem solid transparent; }
@@ -2355,6 +2355,6 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .bruinbots-paragraph { font-family: 'Fredoka One'; }
 
-.img-lg { width: 100%; padding: 10px; }
+.img-lg { max-width: 900px; padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
