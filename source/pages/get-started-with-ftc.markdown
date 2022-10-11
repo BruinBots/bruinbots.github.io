@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Get Started with FTC
 
 get_started_with_ftc: true
 ---

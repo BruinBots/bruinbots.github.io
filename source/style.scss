@@ -18,7 +18,18 @@
  * Base structure
  */
 
+ @function get-vw($target) { 
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
 $maxWidth: 900px;
+$maxImageWidth: $maxWidth;
+
+@if get-vw($maxWidth) > 1 {
+    $maxWidth: 100vw;
+    $maxImageWidth: 80vw;
+}
 
 body {
     // text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -29,6 +40,15 @@ body {
     max-width: $maxWidth;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #cccccc;
 }
 
 
@@ -77,6 +97,6 @@ body {
 }
 
 .img-lg {
-    max-width: $maxWidth;
+    max-width: $maxImageWidth;
     padding: 10px;
 }
