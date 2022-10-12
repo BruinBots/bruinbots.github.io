@@ -21,23 +21,8 @@ who_we_are: true
 We are a group of people who are competing in the First Tech Challenge. We currently have 13 members with 3½ coaches. Our team has been operating for 7 years, with 4 years of competing in FTC. We meet for 5 hours a week between Sundays and Wednesdays, we have lots of fun learning new things about building and programming robots. Coming from different schools, our members range from 7th-11th grade, we compete together as BruinBots.
 {: class="bruinbots-paragraph"}
 
-## Outreach
+## [Outreach](/pages/outreach){: target="_blank"}
 {: class="bruinbots-subtitle"}
-
-**AABEA Science Fair - 2021**
-{: class="bruinbots-paragraph"}
-Our team presented our robot for the AABEA science fair 2021. We also displayed our robots to students and showed to functioning of our robot.
-{: class="bruinbots-paragraph"}
-
-**Giants Display**
-{: class="bruinbots-paragraph"}
-Bruinbots went to a Giant's grocery store and let people drive around the robot.
-{: class="bruinbots-paragraph"}
-
-**Kings Park Library Meet &amp; Greet**
-{: class="bruinbots-paragraph"}
-Bruinbots held a meet and greet for our robot for the year!
-{: class="bruinbots-paragraph"}
 
 # Powerplay
 {: class="bruinbots-subtitle" style="font-size:45px;"}
