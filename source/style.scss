@@ -1,13 +1,11 @@
 ---
-//
 ---
 
-html {
-    @import "bootstrap";
 
-    @import url("https://fonts.googleapis.com/css?family=Fredoka+One");
-    @import url("https://fonts.googleapis.com/css?family=Comic+Sans+MS");
-}
+@import "bootstrap";
+
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+@import url("https://fonts.googleapis.com/css?family=Comic+Sans+MS");
 
 .btn-secondary,
 .btn-secondary:hover,
