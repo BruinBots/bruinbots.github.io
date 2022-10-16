@@ -21,13 +21,13 @@ home: true
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="/assets/images/Img-01.png" class="d-block w-100">
+      <img src="/assets/gallery/Img-01.png" class="d-block w-100">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="/assets/images/Img-02.png" class="d-block w-100">
+      <img src="/assets/gallery/Img-02.png" class="d-block w-100">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="/assets/images/Img-04.jpg" class="d-block w-100">
+      <img src="/assets/gallery/Img-04.jpg" class="d-block w-100">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
