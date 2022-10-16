@@ -14,6 +14,6 @@ You can support us by donating money and following us on social media. We will u
 
 You can donate through paypal by scanning the photo below or clicking [this](https://www.paypal.com/donate/?hosted_button_id=MUBKSGHRNVQ7L&source=qr){: target="_blank"} link.
 
-![](/assets/images/donate.jpg){: style="width: 70%;"}x
+![](/assets/images/donate.jpg){: style="max-height: 70%; max-width: 80%;"}
 
 </div>
