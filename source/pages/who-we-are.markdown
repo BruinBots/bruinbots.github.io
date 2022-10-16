@@ -29,7 +29,7 @@ We are a group of people who are competing in the First Tech Challenge. We curre
 ## Playing Field
 {: class="bruinbots-subtitle"}
 
-![](/assets/images/Img-07.png){: class="img-lg"}
+![](/assets/images/powerplay.png){: class="img-lg"}
 
 ## Rules
 {: class="bruinbots-subtitle"}
@@ -40,11 +40,5 @@ There are four robots on the field. Two on the red team and two on the blue team
 {: class="bruinbots-subtitle"}
 Our strategy is to create an accurate, fast, and small robot. With this body style, we will be in a good position for putting cones on ground junction. Predictably, we will also get 10 penalty points when our opposing robots knock over our cones in the ground junctions because the cones are in their way. But the biggest advantage our robot has over other robots that is little and accurate and can evade the cones.
 {: class="bruinbots-paragraph"}
-![](/assets/images/Img-01.png){: class="img-lg"}
-![](/assets/images/Img-02.png){: class="img-lg"}
-![](/assets/images/Img-03.jpg){: class="img-lg"}
-![](/assets/images/Img-04.jpg){: class="img-lg"}
-![](/assets/images/Img-05.jpg){: class="img-lg"}
-![](/assets/images/Img-06.jpg){: class="img-lg"}
     
 </div>

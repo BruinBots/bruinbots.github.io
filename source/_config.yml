@@ -60,3 +60,7 @@ sass:
     # - style.scss
     # - /opt/homebrew/lib/ruby/gems/3.1.0/gems/bootstrap-5.2.1/assets/stylesheets
     - node_modules/bootstrap-scss
+
+# Gallery
+collections:
+  - assets
