@@ -8,7 +8,7 @@ title: Home
 home: true
 ---
 
-<div class="text-center" markdown="1">
+<div class="text-center p-3" markdown="1">
 
 # Welcome to BruinBots!
 {: class="bruinbots-title"}
@@ -38,6 +38,31 @@ home: true
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+
+<div class="p-5 mt-4 bg-lightgray rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Support Us</h1>
+    <p class="col-md-8 fs-4 ms-auto me-auto">Support us with a tax-deductible gift below.</p>
+    <a class="btn btn-primary btn-lg" type="button" href="/pages/support-us">Support Us</a>
+  </div>
+</div>
+
+<div class="row align-items-md-stretch mt-4">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-bg-dark rounded-3">
+      <h2>Who We Are</h2>
+      <p>Learn more about our team and what we do.</p>
+      <a class="btn btn-outline-light" type="button" href="/pages/who-we-are">Learn More</a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-lightgray border rounded-3">
+      <h2>Outreach</h2>
+      <p>Learn more about our outreach events.</p>
+      <a class="btn btn-outline-secondary" type="button" href="/pages/outreach">Learn More</a>
+    </div>
+  </div>
 </div>
 
 </div>

@@ -86,7 +86,7 @@
                 </nav>
             </div>
         </header> -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top shadow-sm"
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm"
             aria-label="Fifth navbar example" style="position:sticky;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">BruinBots</a>
@@ -107,6 +107,10 @@
                                 href="/pages/who-we-are">Who We Are</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link {% if page.powerplay == true %}active{% endif %}"
+                                href="/pages/powerplay">PowerPlay</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link {% if page.support_us == true %}active{% endif %}"
                                 href="/pages/support-us">Support Us</a>
                         </li>
@@ -121,15 +125,6 @@
                         <li class="nav-item">
                             <a class="nav-link {% if page.outreach == true %}active{% endif %}"
                                 href="/pages/outreach">Outreach</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                aria-expanded="false">Dropdown</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
                         </li>
                     </ul>
                     <!-- <form role="search">

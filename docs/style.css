@@ -2361,4 +2361,6 @@ footer { position: sticky; bottom: 0; left: 0; right: 0; background: white; bord
 
 .img-lg { max-width: 80vw; padding: 10px; }
 
+.bg-lightgray { background-color: #ddd; }
+
 /*# sourceMappingURL=style.css.map */
