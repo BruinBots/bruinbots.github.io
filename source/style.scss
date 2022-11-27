@@ -29,11 +29,12 @@ $maxWidth: 900px;
 $maxImageWidth: $maxWidth;
 
 @if get-vw($maxWidth) > 1 {
-    $maxWidth: 100vw;
-    $maxImageWidth: 80vw;
+    $maxWidth: 900px;
+    $maxImageWidth: 800px;
 }
 
 .main-content {
+    display: block;
     max-width: $maxWidth;
     margin-left: auto;
     margin-right: auto;
