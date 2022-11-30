@@ -25,11 +25,11 @@
     @return ($target/$vw-context) * 1vw;
 }
 
-$maxWidth: 900px;
+$maxWidth: 1200px;
 $maxImageWidth: $maxWidth;
 
 @if get-vw($maxWidth) > 1 {
-    $maxWidth: 900px;
+    $maxWidth: 1200px;
     $maxImageWidth: 800px;
 }
 

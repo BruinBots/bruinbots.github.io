@@ -18,19 +18,18 @@ gallery: true
 
   <div class="album pb-5 bg-light">
     <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3" style="width: 100%;">
+      {% assign num = 0 %}
       {% for image in site.static_files %}
         {% if image.path contains 'assets/gallery' %}
             <div class="col">
               <div class="card shadow-sm">
-                <img src="{{ image.path }}">
-                <!-- <div class="card-body">
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div> -->
+                <a href="{{ image.path }}" target="_blank" class="card">
+                  <img src="{{ image.path }}">
+                </a>
               </div>
             </div>
+           {% assign num = num | plus: 1 %}
           {% endif %}
         {% endfor %}
       </div>
