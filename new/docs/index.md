@@ -10,7 +10,7 @@ We are the BruinBots, an FTC robotics team based out of Fairfax, Virginia.
 
     Meet our robot, Jimmy.
 
-    [![](IMG_2890.jpg)](gallery.md)
+    [![](IMG_2890.jpg)](gallery/index.md)
 
 - :octicons-people-16:{.lg .middle} __About Us__
 
