@@ -1,5 +1,5 @@
 site_name: "Bruinbots #13599 | FTC"
-site_url: https://bruinbots.github.io/new/
+site_url: https://bruinbots.github.io/
 plugins:
   - search
   - autolinks
