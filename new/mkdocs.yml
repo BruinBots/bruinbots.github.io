@@ -51,9 +51,9 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 extra:
-  # analytics:
-  #   provider: google
-  #   property: G-... # TODO
+  analytics:
+    provider: google
+    property: G-NKWETHWD6W
   social:
     - icon: octicons/mail-16
       link: mailto:bruinbotsftc@gmail.com
